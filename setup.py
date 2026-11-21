@@ -10,7 +10,7 @@ Safe to run again: it always starts from the placeholder copies in ./site-templa
 import argparse, os, re, shutil, sys, zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SITE = os.path.join(HERE, "site")
+SITE = os.path.join(HERE, "docs")
 TEMPLATE = os.path.join(HERE, "site-template")
 XLSX = os.path.join("downloads", "S-Curve_Gantt_Planner_Vol2_FREE_LITE.xlsx")
 XLSX_PLACEHOLDER = "[ADD YOUR STORE LINK HERE]"
